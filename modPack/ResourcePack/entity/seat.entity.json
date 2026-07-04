@@ -1,0 +1,12 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tod:seat",
+            "materials": { "default": "entity_alphatest" },
+            "geometry": { "default": "geometry.tod_empty" },
+            "textures": { "default": "textures/blocks/tod_placeholder" },
+            "render_controllers": [ "controller.render.tod_default" ]
+        }
+    }
+}

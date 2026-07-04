@@ -1,0 +1,10 @@
+{
+    "category": [
+        {
+            "name": "old_days",
+            "labelText": "itemCategory.name.old_days",
+            "icon": "textures/blocks/tod_placeholder",
+            "sort_by_identifier": true
+        }
+    ]
+}

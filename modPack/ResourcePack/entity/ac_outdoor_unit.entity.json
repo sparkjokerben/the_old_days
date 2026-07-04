@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tod:ac_outdoor_unit",
+            "geometry": {
+                "default": "geometry.tod_ac_outdoor_unit_flat",
+                "bracket": "geometry.tod_ac_outdoor_unit_bracket"
+            },
+            "textures": {
+                "default": "textures/entity/tod_ac_outdoor_unit"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.tod_ac_flat": "variable.ac_mounted < 0.5"
+                },
+                {
+                    "controller.render.tod_ac_bracket": "variable.ac_mounted >= 0.5"
+                }
+            ],
+            "scripts": {
+                "initialize": [
+                    "variable.ac_mounted = 0.0;"
+                ],
+                "animate": []
+            }
+        }
+    }
+}

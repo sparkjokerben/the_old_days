@@ -1,9 +1,27 @@
 {
     "resource_pack_name": "vanilla",
+    "texture_name": "atlas.terrain",
     "texture_data": {
-        "custom_fluid:custom_dirt": {
-            "textures": "textures/blocks/custom_dirt"
+        "tod_placeholder_icon": {
+            "textures": "textures/blocks/tod_placeholder"
+        },
+        "tod_framed_award": {
+            "textures": "textures/entity/tod_framed_award"
+        },
+        "tod_advertisement": {
+            "textures": "textures/entity/tod_advertisement"
+        },
+        "tod_wooden_chair": {
+            "textures": "textures/entity/tod_wooden_chair"
+        },
+        "tod_ceiling_fan": {
+            "textures": "textures/entity/tod_ceiling_fan"
+        },
+        "tod_ac_outdoor_unit": {
+            "textures": "textures/entity/tod_ac_outdoor_unit"
+        },
+        "tod_red_plastic_stool": {
+            "textures": "textures/entity/tod_red_plastic_stool"
         }
-    },
-    "texture_name": "atlas.terrain"
+    }
 }

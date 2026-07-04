@@ -1,0 +1,22 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "tod:seat",
+            "is_spawnable": false,
+            "is_summonable": true,
+            "is_experimental": false
+        },
+        "components": {
+            "minecraft:rideable": {
+                "seat_count": 1,
+                "family_types": [ "player" ],
+                "seats": { "position": [ 0.0, 0.0, 0.0 ], "lock_rider_rotation": 181 }
+            },
+            "minecraft:physics": { "has_gravity": false, "has_collision": false },
+            "minecraft:collision_box": { "width": 0.1, "height": 0.1 },
+            "minecraft:pushable": { "is_pushable": false, "is_pushable_by_piston": false },
+            "minecraft:damage_sensor": { "triggers": [ { "cause": "all", "deals_damage": false } ] }
+        }
+    }
+}

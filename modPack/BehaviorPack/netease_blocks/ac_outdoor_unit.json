@@ -1,0 +1,20 @@
+{
+    "format_version": "1.16.0",
+    "minecraft:block": {
+        "description": {
+            "identifier": "tod:ac_outdoor_unit",
+            "register_to_create_menu": true,
+            "category": "old_days"
+        },
+        "components": {
+            "netease:block_entity": {
+                "movable": true
+            },
+            "minecraft:destroy_time": 0.6,
+            "minecraft:explosion_resistance": 1.0,
+            "netease:face_directional": {
+                "type": "facing_direction"
+            }
+        }
+    }
+}

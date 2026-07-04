@@ -1,0 +1,455 @@
+{
+    "format_version": [
+        1,
+        1,
+        0
+    ],
+    "tod:crt_tv": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:crt_tv",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:stereo_system": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:stereo_system",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:quartz_wall_clock": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:quartz_wall_clock",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:bead_curtain": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:bead_curtain",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:leather_sofa": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:leather_sofa",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:wainscoting_green": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:wainscoting_green",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:wainscoting_brown": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:wainscoting_brown",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:terrazzo_floor": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:terrazzo_floor",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:enamel_basin": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:enamel_basin",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:aluminum_lunchbox": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:aluminum_lunchbox",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:thermos_bamboo": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:thermos_bamboo",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:thermos_red": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:thermos_red",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:pressure_cooker": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:pressure_cooker",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:mesh_food_cover": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:mesh_food_cover",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:gas_tank": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:gas_tank",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:old_fridge_green": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:old_fridge_green",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:old_fridge_yellow": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:old_fridge_yellow",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:microwave_oven": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:microwave_oven",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:glass_turntable_table": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:glass_turntable_table",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:floral_bedsheet_plaid": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:floral_bedsheet_plaid",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:floral_bedsheet_peony": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:floral_bedsheet_peony",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:embroidered_pillow_towel": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:embroidered_pillow_towel",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:green_glass_lamp": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:green_glass_lamp",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:folding_table": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:folding_table",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:tear_off_desk_calendar": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:tear_off_desk_calendar",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:solar_water_heater": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:solar_water_heater",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:satellite_dish": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:satellite_dish",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:water_meter": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:water_meter",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:cloth_mop": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:cloth_mop",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:asbestos_awning": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:asbestos_awning",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:cement_flowerpot": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:cement_flowerpot",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:clay_flowerpot": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:clay_flowerpot",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:rusty_birdcage": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:rusty_birdcage",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:game_console": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:game_console",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:repeater_recorder": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:repeater_recorder",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:rotary_phone": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:rotary_phone",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:charger_block": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:charger_block",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:transformer_block": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:transformer_block",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:bicycle": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:bicycle",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:tricycle": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:tricycle",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:kick_scooter": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:kick_scooter",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:star_poster": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:star_poster",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:framed_award": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:framed_award",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_framed_award"
+        }
+    },
+    "tod:eye_chart": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:eye_chart",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:wall_calendar": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:wall_calendar",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:window_screen": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:window_screen",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:sliding_window": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:sliding_window",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:security_grille": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:security_grille",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:exhaust_fan": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:exhaust_fan",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:meter_box": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:meter_box",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:corridor_light": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:corridor_light",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_placeholder_icon"
+        }
+    },
+    "tod:advertisement": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:advertisement",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_advertisement"
+        }
+    },
+    "tod:wooden_chair": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:wooden_chair",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_wooden_chair"
+        }
+    },
+    "tod:ceiling_fan": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:ceiling_fan",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_ceiling_fan"
+        }
+    },
+    "tod:ac_outdoor_unit": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:ac_outdoor_unit",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_ac_outdoor_unit"
+        }
+    },
+    "tod:red_plastic_stool": {
+        "sound": "stone",
+        "client_entity": {
+            "identifier": "tod:red_plastic_stool",
+            "hand_model_use_client_entity": true,
+            "block_icon": "tod_red_plastic_stool"
+        }
+    }
+}

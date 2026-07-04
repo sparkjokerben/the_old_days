@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+        "mcdk-mcp":{
+            "type":"http",
+            "url":"https://origin-mcp.jokerben.top/mcdk-mcp/mcp",
+            "headers": {
+                "x-mcp-key":"8jh2g6qjZXDs1NvIOjivMmr6zZCzSwZPHSLf5iTAI"
+            }
+        }
+    }
+}

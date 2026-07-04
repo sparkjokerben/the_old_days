@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tod:ceiling_fan",
+            "geometry": {
+                "default": "geometry.tod_ceiling_fan"
+            },
+            "textures": {
+                "default": "textures/entity/tod_ceiling_fan"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "render_controllers": [
+                "controller.render.tod_default"
+            ],
+            "animations": {
+                "spin": "animation.tod_ceiling_fan.spin",
+                "fan": "controller.animation.tod_ceiling_fan.fan"
+            },
+            "scripts": {
+                "animate": [
+                    "fan"
+                ]
+            }
+        }
+    }
+}

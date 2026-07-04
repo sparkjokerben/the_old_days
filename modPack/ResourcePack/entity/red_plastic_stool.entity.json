@@ -1,0 +1,44 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tod:red_plastic_stool",
+            "geometry": {
+                "default": "geometry.tod_red_plastic_stool_1",
+                "s2": "geometry.tod_red_plastic_stool_2",
+                "s3": "geometry.tod_red_plastic_stool_3",
+                "s4": "geometry.tod_red_plastic_stool_4",
+                "s5": "geometry.tod_red_plastic_stool_5"
+            },
+            "textures": {
+                "default": "textures/entity/tod_red_plastic_stool"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "render_controllers": [
+                {
+                    "controller.render.tod_stool_1": "variable.stool_count < 1.5"
+                },
+                {
+                    "controller.render.tod_stool_2": "variable.stool_count >= 1.5 && variable.stool_count < 2.5"
+                },
+                {
+                    "controller.render.tod_stool_3": "variable.stool_count >= 2.5 && variable.stool_count < 3.5"
+                },
+                {
+                    "controller.render.tod_stool_4": "variable.stool_count >= 3.5 && variable.stool_count < 4.5"
+                },
+                {
+                    "controller.render.tod_stool_5": "variable.stool_count >= 4.5"
+                }
+            ],
+            "scripts": {
+                "initialize": [
+                    "variable.stool_count = 1.0;"
+                ],
+                "animate": []
+            }
+        }
+    }
+}

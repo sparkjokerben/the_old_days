@@ -1,0 +1,23 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "tod:framed_award",
+            "geometry": {
+                "default": "geometry.tod_framed_award"
+            },
+            "textures": {
+                "default": "textures/entity/tod_framed_award"
+            },
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "render_controllers": [
+                "controller.render.tod_default"
+            ],
+            "scripts": {
+                "animate": []
+            }
+        }
+    }
+}
