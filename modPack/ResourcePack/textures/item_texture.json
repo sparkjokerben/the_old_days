@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "custom_fluid:custom_fluid_bucket": {
+            "textures": "None"
+        }
+    },
+    "texture_name": "atlas.items"
+}

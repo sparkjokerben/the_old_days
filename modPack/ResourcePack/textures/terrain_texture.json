@@ -1,0 +1,9 @@
+{
+    "resource_pack_name": "vanilla",
+    "texture_data": {
+        "custom_fluid:custom_dirt": {
+            "textures": "textures/blocks/custom_dirt"
+        }
+    },
+    "texture_name": "atlas.terrain"
+}
