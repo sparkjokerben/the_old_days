@@ -36,8 +36,7 @@
             "scripts": {
                 "initialize": [
                     "variable.stool_count = 1.0;"
-                ],
-                "animate": []
+                ]
             }
         }
     }

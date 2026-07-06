@@ -14,10 +14,7 @@
             },
             "render_controllers": [
                 "controller.render.tod_default"
-            ],
-            "scripts": {
-                "animate": []
-            }
+            ]
         }
     }
 }

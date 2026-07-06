@@ -1,11 +1,20 @@
 {
     "mcpServers": {
-        "mcdk-mcp":{
-            "type":"http",
-            "url":"https://origin-mcp.jokerben.top/mcdk-mcp/mcp",
+        "mcdk-mcp": {
+            "type": "http",
+            "url": "https://origin-mcp.jokerben.top/mcdk-mcp/mcp",
             "headers": {
-                "x-mcp-key":"8jh2g6qjZXDs1NvIOjivMmr6zZCzSwZPHSLf5iTAI"
+                "x-mcp-key": "8jh2g6qjZXDs1NvIOjivMmr6zZCzSwZPHSLf5iTAI"
             }
+        },
+        "mcdk-mcp-backup": {
+            "command": "npx",
+            "args": [
+                "mcp-remote",
+                "http://127.0.0.1:18766/sse",
+                "--transport",
+                "sse-only"
+            ]
         }
     }
 }

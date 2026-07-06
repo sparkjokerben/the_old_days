@@ -11,7 +11,6 @@
                 "movable": true
             },
             "minecraft:destroy_time": 0.6,
-            "minecraft:explosion_resistance": 1.0,
             "minecraft:block_light_emission": 0.6
         }
     }

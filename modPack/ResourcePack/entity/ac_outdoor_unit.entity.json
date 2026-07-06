@@ -24,8 +24,7 @@
             "scripts": {
                 "initialize": [
                     "variable.ac_mounted = 0.0;"
-                ],
-                "animate": []
+                ]
             }
         }
     }

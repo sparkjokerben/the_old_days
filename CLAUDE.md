@@ -1,2 +1,2 @@
-- 严格按照mcdk-mcp的文档开发，不虚构接口、组件等
+- 必须按照mcdk-mcp的文档开发，不虚构接口、组件等，mcdk-mcp断开时使用mcdk-mcp-backup
 - 使用简体中文回答我

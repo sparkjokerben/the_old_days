@@ -6,7 +6,7 @@
 
 外观策略：
   - 无 bbmodel 的方块：用「自定义方块实体外观」复用原版盔甲架 geometry.armor_stand 占位。
-  - 有 bbmodel 的方块（见 MODELS）：调用 tools/parse_bbmodels/parse_bbmodel.py 把 bbmodel 转成
+  - 有 bbmodel 的方块（见 MODELS）：调用 parse-bbmodel skill 的 parse_bbmodel.py 把 bbmodel 转成
     Bedrock 几何体/动画/贴图，接为真实方块实体外观。空调外机=按放置面切几何体，红凳=1~5 层堆叠切几何体。
 
 运行：  python3 tools/gen_furniture.py
@@ -36,8 +36,8 @@ BP = os.path.join(ROOT, "modPack", "BehaviorPack")
 RP = os.path.join(ROOT, "modPack", "ResourcePack")
 ASSETS = os.path.join(ROOT, "assets")
 
-# 引入 bbmodel 解析器（用户提供，纯标准库）
-sys.path.insert(0, os.path.join(ROOT, "tools", "parse_bbmodels"))
+# 引入 bbmodel 解析器（纯标准库）。单一源在 parse-bbmodel skill 里。
+sys.path.insert(0, os.path.join(ROOT, ".claude", "skills", "parse-bbmodel", "scripts"))
 import parse_bbmodel as pb  # noqa: E402
 
 # ---------------------------------------------------------------------------
@@ -318,7 +318,6 @@ def gen_behavior_blocks():
         components = {
             "netease:block_entity": {"movable": True},
             "minecraft:destroy_time": 0.6,
-            "minecraft:explosion_resistance": 1.0,
         }
         if is_light:
             components["minecraft:block_light_emission"] = 0.6
@@ -350,7 +349,6 @@ def _placeholder_entity(bid):
             "textures": {"default": "textures/entity/armor_stand"},
             "materials": {"default": "entity_alphatest"},
             "render_controllers": [PLACEHOLDER_RC],
-            "scripts": {"animate": []},
         }},
     }
 
@@ -366,7 +364,6 @@ def _model_entity(bid, geoms):
     }
     if kind in ("simple",):
         desc["render_controllers"] = [DEFAULT_RC]
-        desc["scripts"] = {"animate": []}
     elif kind == "animated":
         desc["render_controllers"] = [DEFAULT_RC]
         desc["animations"] = {"spin": FAN_ANIM, "fan": FAN_ANIM_CTRL}
@@ -376,7 +373,7 @@ def _model_entity(bid, geoms):
             {"controller.render.tod_ac_flat": "variable.ac_mounted < 0.5"},
             {"controller.render.tod_ac_bracket": "variable.ac_mounted >= 0.5"},
         ]
-        desc["scripts"] = {"initialize": ["variable.ac_mounted = 0.0;"], "animate": []}
+        desc["scripts"] = {"initialize": ["variable.ac_mounted = 0.0;"]}
     elif kind == "stool":
         rcs = []
         n = spec["stack_max"]
@@ -389,7 +386,7 @@ def _model_entity(bid, geoms):
                 cond = "variable.stool_count >= {}.5 && variable.stool_count < {}.5".format(k - 1, k)
             rcs.append({"controller.render.tod_stool_{}".format(k): cond})
         desc["render_controllers"] = rcs
-        desc["scripts"] = {"initialize": ["variable.stool_count = 1.0;"], "animate": []}
+        desc["scripts"] = {"initialize": ["variable.stool_count = 1.0;"]}
     return {"format_version": "1.10.0", "minecraft:client_entity": {"description": desc}}
 
 
